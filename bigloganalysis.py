@@ -176,7 +176,7 @@ def get_error_code_explanation(error_code):
     
     result = {
         'explanation': f'Error code {error_code}: Check F5 documentation for detailed explanation',
-        'uri': f'{base_uri}#{message_id}'
+        'uri': f'{base_uri}#A{message_id}'
     }
     
     # Attempt to fetch actual documentation if web fetch is available
